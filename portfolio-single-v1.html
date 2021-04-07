@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from createx.createx.studio/html/creative-agency/portfolio-single-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Apr 2021 20:35:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Createx | Creative Agency - Single Project v.1</title>
+
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Createx - Creative Agency Demo">
+    <meta name="keywords" content="bootstrap, business, creative agency, portfolio, services, ui kit, landing, html5, css3, javascript, gallery, slider, touch, creative">
+    <meta name="author" content="Createx Studio">
+
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/favicon-16x16.png">
+    <link rel="manifest" href="https://createx.createx.studio/assets/img/site.webmanifest">
+    <link rel="mask-icon" color="#5bbad5" href="https://createx.createx.studio/assets/img/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="../../assets/vendor/tiny-slider/dist/tiny-slider.css"/>
+    <link rel="stylesheet" media="screen" href="../../assets/vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
+
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="../../assets/css/demo/creative-agency/theme.min.css">
+    
+    <!-- Page loading styles-->
+    <style>
+      .cs-page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .cs-page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .cs-page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .cs-page-loading.active > .cs-page-loading-inner {
+        opacity: 1;
+      }
+      .cs-page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #787a80;
+      }
+      .cs-page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        background-color: #cfcfd1; 
+        border-radius: 50%;
+        opacity: 0;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      @keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+    </style>
+
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.cs-page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+    </script>
+
+    <!-- Demo switcher off-canvas toggle styles -->
+    <style>
+      .cs-demo-switcher {
+        position: fixed;
+        display: block;
+        top: 50%;
+        right: 1rem;
+        z-index: 100;
+      }
+      .cs-demo-switcher-inner {
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid #e5e8ed;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #1e212c;
+        font-size: 1.25rem;
+        line-height: 3rem;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0px 10px 15px 0px rgba(30,33,44,0.10);
+      }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+  </head>
+
+  <!-- Body-->
+  <body>
+    
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+    </noscript>
+
+    <!-- Page loading spinner-->
+    <div class="cs-page-loading active">
+      <div class="cs-page-loading-inner">
+        <div class="cs-page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+
+    <!-- Main content-->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="cs-page-wrapper position-relative">
+
+
+      <!-- Demo switcher off-canvas -->
+      <div id="demo-switcher" class="cs-offcanvas cs-offcanvas-right">
+        <div class="cs-offcanvas-cap d-block border-bottom">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2 class="h5 mb-0">Choose Demo</h2>
+            <button class="close mr-n1" type="button" data-dismiss="offcanvas" aria-label="Close">
+              <span class="h3 font-weight-normal mb-0" aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="d-flex pt-3">
+            <a href="https://createx.createx.studio/index.html" class="btn btn-sm btn-outline-secondary btn-block my-0 mr-2">
+              <i class="cxi-home font-size-base mr-1"></i>
+             Main Page
+            </a>
+            <a href="https://createx.createx.studio/html/components/typography.html" class="btn btn-sm btn-outline-secondary btn-block my-0">
+              <i class="cxi-files font-size-base mr-1"></i>
+             Docs / UI Kit
+            </a>
+          </div>
+        </div>
+        <div class="cs-offcanvas-body pt-4 pb-3" data-simplebar data-simplebar-auto-hide="true">
+          <a href="index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/creative-agency.jpg" class="d-block rounded-top mb-2" alt="Creative Agency">
+            <h6 class="mb-0 pt-1 text-center">Creative Agency</h6>
+          </a>
+          <a href="https://createx.createx.studio/html/ecommerce/index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/ecommerce.jpg" class="d-block rounded-top mb-2" alt="E-Commerce">
+            <h6 class="mb-0 pt-1 text-center">E-Commerce</h6>
+          </a>
+          <a href="https://createx.createx.studio/html/construction/index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/construction.jpg" class="d-block rounded-top mb-2" alt="Construction Bureau">
+            <h6 class="mb-0 pt-1 text-center">Construction Bureau</h6>
+          </a>
+          <a href="https://createx.createx.studio/html/seo-agency/index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/seo-agency.jpg" class="d-block rounded-top mb-2" alt="SEO & Marketing Agency">
+            <h6 class="mb-0 pt-1 text-center">SEO &amp; Marketing Agency</h6>
+          </a>
+          <a href="https://createx.createx.studio/html/online-courses/index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/online-courses.jpg" class="d-block rounded-top mb-2" alt="Online Courses">
+            <h6 class="mb-0 pt-1 text-center">Online Courses</h6>
+          </a>
+        </div>
+        <div class="cs-offcanvas-cap flex-column border-top">
+          <a href="https://themes.getbootstrap.com/product/createx-multipurpose-template-ui-kit/" class="btn btn-primary btn-block" target="_blank" rel="noopener">
+            <i class="cxi-cart mt-n1 mr-2"></i>
+            Buy Createx
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Demo switcher off-canvas toggle -->
+      <a href="#" class="cs-demo-switcher" data-toggle="offcanvas" data-target="demo-switcher">
+        <div class="cs-demo-switcher-inner" data-toggle="tooltip" data-placement="left" title="Choose Demo">
+          <i class="cxi-layouts"></i>
+        </div>
+      </a>
+      
+
+      <!-- Navbar -->
+      <!-- Remove .navbar-sticky class to detach .navbar from page scroll -->
+      <header class="cs-header navbar navbar-expand-md navbar-light navbar-sticky">
+        <div class="container px-0 px-xl-3">
+          <a class="navbar-brand order-md-1 mr-md-5 mr-0 pr-lg-2" href="index.html">
+            <img src="https://createx.createx.studio/assets/img/creative-agency/logo-dark.svg" alt="Createx Logo" width="130">
+          </a>
+          <div class="d-flex align-items-center order-md-3">
+            <a class="btn btn-primary btn-pill d-sm-inline-block d-none ml-3" href="contacts.html">Contact us</a>
+            <button class="navbar-toggler ml-1 mr-n3" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <nav class="collapse navbar-collapse order-md-2" id="navbarCollapse1">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Portfolio</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="portfolio.html">Portfolio Grid</a></li>
+                  <li><a class="dropdown-item" href="portfolio-single-v1.html">Single Project v.1</a></li>
+                  <li><a class="dropdown-item" href="portfolio-single-v2.html">Single Project v.2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="blog.html">Blog List</a></li>
+                  <li><a class="dropdown-item" href="blog-single.html">Single Post</a></li>
+                </ul>
+              </li>
+              <li class="nav-item d-sm-none d-block">
+                <a class="nav-link" href="contacts.html">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+
+      <!-- Page content-->
+      <section class="container mt-5 mb-lg-6 mb-5 pt-md-4">
+        <ul class="nav nav-muted mb-2">
+          <li class="nav-item mr-2">
+            <a class="nav-link d-inline-block mr-2 p-0 font-weight-normal" href="#">
+              May 26, 2020
+            </a>
+            <span class="text-border">|</span>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link d-inline-block mr-2 p-0 font-weight-normal" href="#">
+              Branding
+            </a>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-between mb-lg-5 mb-4">
+          <h1 class="mb-0">Striped Smooth Surface With Lines</h1>
+
+          <!-- Share + Live demo -->
+          <div class="d-flex mt-lg-3 mt-2">
+            <div class="icon-dropdown icon-dropleft">
+              <a class="social-btn sb-outline sb-round" data-toggle="tooltip" data-placement="top" title="Share">
+                <i class="cxi-share"></i>
+              </a>
+              <ul class="icon-drop-menu bg-light">
+                <li class="icon-drop-item">
+                  <a href="#" class="social-btn sb-outline sb-round">
+                    <i class="cxi-linkedin"></i>
+                  </a>
+                </li>
+                <li class="icon-drop-item">
+                  <a href="#" class="social-btn sb-outline sb-round">
+                    <i class="cxi-twitter"></i>
+                  </a>
+                </li>
+                <li class="icon-drop-item">
+                  <a href="#" class="social-btn sb-outline sb-round">
+                    <i class="cxi-facebook"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="social-btn sb-outline sb-round ml-2" data-toggle="tooltip" data-placement="top" title="Go to project">
+              <i class="cxi-arrow-share"></i>
+            </a>
+          </div>
+        </div>
+        <img class="rounded" src="../../assets/img/creative-agency/portfolio/single/01.jpg" alt="Project image">
+      </section>
+
+
+      <!-- Project goal -->
+      <section class="container mb-lg-6 mb-5">
+        <h2 class="h6 mb-3 text-uppercase">Project goal</h2>
+        <div class="row mb-lg-6 mb-sm-5 mb-4">
+          <div class="col-md-8">
+            <p class="mb-3 lead font-weight-bold">Rebuild a unified visual system for the advertising agency, made of steel which can change the world in a while.</p>
+            <p class="mb-md-0 text-muted">Sagittis, neque dignissim ante nullam ipsum adipiscing amet. Dignissim fermentum eget velit massa placerat faucibus integer nulla diam. Adipiscing interdum augue blandit enim, risus erat magna tristique. Nec porttitor enim ac est mauris pharetra. Phasellus senectus ipsum vulputate feugiat vitae. Vivamus massa eu sed in netus. Mattis nunc, in aliquam et. Egestas  tellus mauris turpis sagittis convallis eget.</p>
+          </div>
+          <div class="col-lg-3 col-md-4 ml-auto">
+            <div class="row justify-content-between">
+              <div class="col-xl-5 col-md-6 col-sm-3 col-6 mb-4 pb-1">
+                <h3 class="h6 mb-2">Strategy</h3>
+                <ul class="list-unstyled font-size-sm">
+                  <li>Brand Strategy</li>
+                  <li>UX Strategy</li>
+                </ul>
+              </div>
+              <div class="col-xl-5 col-md-6 col-sm-3 col-6 mb-4 pb-1">
+                <h3 class="h6 mb-2">Category</h3>
+                <ul class="list-unstyled font-size-sm">
+                  <li>Branding</li>
+                  <li>Mobile app</li>
+                </ul>
+              </div>
+              <div class="col-xl-5 col-md-6 col-sm-3 col-6 mb-4 pb-1">
+                <h3 class="h6 mb-2">Design</h3>
+                <ul class="list-unstyled font-size-sm">
+                  <li>UI/UX Design</li>
+                  <li>Art Direction</li>
+                </ul>
+              </div>
+              <div class="col-xl-5 col-md-6 col-sm-3 col-6 mb-4 pb-1">
+                <h3 class="h6 mb-2 pb-1">Client</h3>
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/envato.svg" alt="Envato">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jumbotron position-relative bg-size-cover bg-position-center bg-no-repeat text-center py-6" style="background-image: url(../../assets/img/creative-agency/portfolio/single/02.jpg);">
+          <div class="bg-overlay rounded opacity-60"></div>
+          <div class="bg-overlay-content my-5 py-5">
+            <a class="cs-video-btn cs-video-btn-lg my-3" href="https://www.youtube.com/watch?v=Ztos8CKMIyc&amp;ab_channel=DimaShishkov" data-gallery-video></a>
+            <div class="pt-1"></div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Challenge -->
+      <section class="container mb-lg-6 mb-5">
+        <div class="row mb-lg-6 mb-5">
+          <div class="col-lg-8 col-sm-10 mx-auto">
+            <h2 class="h6 mb-3 text-uppercase">Challenge</h2>
+            <p class="mb-0">Aenean vitae aliquet convallis vitae, elit volutpat sodales. Faucibus netus mauris orci fermentum, eu in convallis semper. Phasellus viverra dui, ut donec volutpat. Gravida nisl ac feugiat tincidunt lacinia est, elit, sit. Leo nibh dignissim est, vulputate in leo risus. Nulla in magnis vulputate urna risus, natoque sollicitudin volutpat quis. Egestas egestas vivamus mattis nunc, in aliquam et. Egestas  tellus mauris turpis sagittis convallis eget.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mb-sm-0 mb-3">
+            <img class="rounded" src="../../assets/img/creative-agency/portfolio/single/03.jpg" alt="Project image">
+          </div>
+          <div class="col-sm-6">
+            <img class="rounded" src="../../assets/img/creative-agency/portfolio/single/04.jpg" alt="Project image">
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Testimonial -->
+      <section class="container mb-lg-6 mb-5">
+        <div class="row mb-lg-6 mb-5">
+          <div class="col-lg-8 col-sm-10 mx-auto">
+            <blockquote class="blockquote mb-0">
+              <p class="pb-2">Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in. Viverra mauris hendrerit quisque non sed eu. Vel accumsan at elit neque, ipsum. Vel accumsan at elit neque, ipsum.</p>
+              <footer class="media align-items-center">
+                <img class="mr-3 rounded-circle" src="../../assets/img/creative-agency/testimonials/01.jpg" width="72" alt="Courtney Alexander">
+                <div class="media-body">
+                  <h3 class="h6 mb-0">Courtney Alexander</h3>
+                  <span class="font-size-sm text-muted">Position, Company</span>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+        <img class="rounded" src="../../assets/img/creative-agency/portfolio/single/05.jpg" alt="Project image">
+      </section>
+
+
+      <!-- Achievements -->
+      <section class="container mb-lg-6 mb-5 pt-3 pt-lg-0">
+        <h3 class="h6 mb-2 text-uppercase">Honors</h3>
+        <div class="row">
+          <div class="col-xl-4 col-lg-5">
+            <h2 class="h1 mb-lg-5 mb-4">The awards won by our studio</h2>
+          </div>
+          <div class="col-lg-7 mt-2 d-flex flex-sm-row flex-column align-items-start justify-content-sm-between flex-lg-nowrap flex-wrap ml-auto">
+            <div class="d-flex flex-sm-column justify-content-center mb-lg-0 mb-3 px-3">
+              <a href="#" class="cs-swap-image mr-sm-0 mr-3 mb-3">
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/webby.svg" class="cs-swap-to" width="60" alt="Brand logo hover">
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/webby-g.svg" class="cs-swap-from" width="60" alt="Brand logo">
+              </a>
+              <span class="d-block pt-1 font-size-sm text-dark text-nowrap">4x mobile of the day</span>
+            </div>
+            <div class="d-flex flex-sm-column justify-content-center mb-lg-0 mb-3 px-3">
+              <a href="#" class="cs-swap-image mr-sm-0 mr-3 mb-3">
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/cssda.svg" class="cs-swap-to" width="60" alt="Brand logo hover">
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/cssda-g.svg" class="cs-swap-from" width="60" alt="Brand logo">
+              </a>
+              <span class="d-block pt-1 font-size-sm text-dark text-nowrap">1x Kudos</span>
+            </div>
+            <div class="d-flex flex-sm-column justify-content-center mb-lg-0 mb-3 px-3">
+              <a href="#" class="cs-swap-image mr-sm-0 mr-3 mb-3">
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/awwwards.svg" class="cs-swap-to" width="60" alt="Brand logo hover">
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/awwwards-g.svg" class="cs-swap-from" width="60" alt="Brand logo">
+              </a>
+              <span class="d-block pt-1 font-size-sm text-dark text-nowrap">3x website of the day</span>
+            </div>
+            <div class="d-flex flex-sm-column justify-content-center mb-lg-0 mb-3 px-3">
+              <a href="#" class="cs-swap-image mr-sm-0 mr-3 mb-3">
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/fwa.svg" class="cs-swap-to" width="60" alt="Brand logo hover">
+                <img src="https://createx.createx.studio/assets/img/creative-agency/logo/fwa-g.svg" class="cs-swap-from" width="60" alt="Brand logo">
+              </a>
+              <span class="d-block pt-1 font-size-sm text-dark text-nowrap">2x best website</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Latest projects -->
+      <section class="bg-secondary py-lg-6 pt-5 pb-4">
+        <div class="container pt-2 pt-lg-0">
+          <h3 class="h6 mb-2 text-uppercase">Enjoy our latest projects</h3>
+          <div class="mb-lg-5 mb-4 d-flex justify-content-between">
+            <h2 class="h1 mb-0">Selected work</h2>
+            <div class="tns-custom-controls cs-controls-inverse mb-md-n4" id="tns-portfolio-controls" tabindex="0">
+              <button type="button" data-controls="prev" tabindex="-1">
+                <i class="cxi-arrow-left"></i>
+              </button>
+              <button type="button" data-controls="next" tabindex="-1">
+                <i class="cxi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container px-0">
+
+          <!-- Carousel -->
+          <div class="cs-carousel mt-n2 mb-lg-5 mb-4">
+            <div class="cs-carousel-inner" data-carousel-options='{
+              "nav": false,
+              "controlsContainer": "#tns-portfolio-controls",
+              "responsive": {
+                "0": {
+                  "items": 1
+                },
+                "576": {
+                  "items": 2
+                },
+                "768": {
+                  "items": 3
+                }
+              }
+            }'>
+              <div class="rounded">
+                <a class="cs-portfolio-card-scale text-decoration-none mt-3 mx-3" href="portfolio-single-v2.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/01.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Pink Fur Light Bulb Creative Concept</h3>
+                    <span class="font-size-sm text-muted">Web Design</span>
+                  </div>
+                </a>
+              </div>
+              <div class="rounded">
+                <a class="cs-portfolio-card-scale text-decoration-none mt-3 mx-3" href="portfolio-single-v2.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/02.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Minimalistic Mobile Interface</h3>
+                    <span class="font-size-sm text-muted">Mobile Apps</span>
+                  </div>
+                </a>
+              </div>
+              <div class="rounded">
+                <a class="cs-portfolio-card-scale text-decoration-none mt-3 mx-3" href="portfolio-single-v2.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/03.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Hardcover Book Concept</h3>
+                    <span class="font-size-sm text-muted">Branding</span>
+                  </div>
+                </a>
+              </div>
+              <div class="rounded">
+                <a class="cs-portfolio-card-scale text-decoration-none mt-3 mx-3" href="portfolio-single-v2.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/04.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Mobile App Icon Design</h3>
+                    <span class="font-size-sm text-muted">Mobile App Design</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Contact links -->
+      <section class="container mb-4 mb-sm-5 mt-3 mt-md-4 mt-lg-0 px-3 py-lg-6 py-5">
+        <h2 class="h3 mb-5 pb-2 text-center">Let's build something amazing together!</h2>
+        <div class="row justify-content-center px-2 px-sm-0">
+          <div class="col-md-3 col-sm-4 col px-2 px-sm-3">
+            <h3 class="h6 pb-lg-3 pb-2 text-uppercase text-muted text-center">Follow us</h3>
+            <a class="d-block" href="#">
+              <img class="rounded" src="https://createx.createx.studio/assets/img/creative-agency/logo/block-dribbble.svg" alt="Dribble">
+            </a>
+            <a class="mt-sm-4 mt-3 d-block" href="#">
+              <img class="rounded" src="https://createx.createx.studio/assets/img/creative-agency/logo/block-behance.svg" alt="Behance">
+            </a>
+          </div>
+          <div class="divider-vertical d-sm-block d-none offset-sm-1"></div>
+          <div class="col-md-3 col-sm-4 col offset-sm-1 px-2 px-sm-3">
+            <h3 class="h6 pb-lg-3 pb-2 text-uppercase text-muted text-center">Get in touch</h3>
+            <a class="d-block" href="#">
+              <img class="rounded" src="https://createx.createx.studio/assets/img/creative-agency/logo/block-upwork.svg" alt="Upwork">
+            </a>
+            <a class="mt-sm-4 mt-3 d-block" href="mailto:hello@example.com">
+              <img class="rounded" src="https://createx.createx.studio/assets/img/creative-agency/logo/block-email.svg" alt="Email">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main><!-- / Main content: .cs-page-wrapper -->
+
+
+    <!-- Footer -->
+    <footer class="cs-footer pt-3 bg-dark">
+      <div class="container py-lg-5 py-4">
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-12 order-md-1 order-2 mb-md-0 mb-4">
+            <h3 class="h6 mb-3 text-uppercase text-light">Want to hire us?</h3>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item mb-2">
+                <a href="tel:(405)555-0128" class="nav-link p-0 font-weight-normal">
+                  <span class="text-light">Call: </span>
+                  (405) 555-0128
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="mailto:hello@example.com" class="nav-link p-0 font-weight-normal">
+                  <span class="text-light">Email: </span>
+                  hello@example.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-12 order-md-2 order-1 offset-lg-1 mb-md-0 mb-4">
+            <h3 class="h6 mb-3 text-uppercase text-light">Quick links</h3>
+            <ul class="nav nav-light flex-md-column flex-sm-row flex-column">
+              <li class="nav-item mb-2">
+                <a href="index.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">Homepage</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="portfolio.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">Portfolio</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="about.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">About us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="blog.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">Blog</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contacts.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 order-md-3 order-sm-4 order-3 offset-lg-1 mb-md-0 mb-4">
+            <h3 class="h6 mb-3 text-uppercase text-light">Follow us</h3>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mr-2 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-facebook"></i>
+            </a>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mr-2 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-instagram"></i>
+            </a>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mr-2 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-twitter"></i>
+            </a>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mr-2 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-behance"></i>
+            </a>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-dribbble"></i>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6 order-md-4 order-sm-3 order-4 mb-md-0 mb-4">
+            <h3 class="h6 mb-3 text-uppercase text-light">Subscribe</h3>
+            <form>
+              <div class="input-group-overlay input-group-light form-group mb-2 pb-1">
+                <input class="form-control appended-form-control" type="text" placeholder="Email address*">
+                <div class="input-group-append-overlay">
+                  <span class="input-group-text">
+                    <button class="btn btn-link bt-sm px-0" type="submit">
+                      <i class="cxi-arrow-right lead mt-n1"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+              <small class="form-text text-light">*Subscribe to our newsletter to receive early discount offers, updates and new products info.</small>
+            </form>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between mt-2 pt-1">
+          <div class="text-light">
+            <span class="d-block font-size-xs mb-1">
+              <span class="font-size-sm">&copy; </span>
+              All rights reserved.
+            </span>
+            <span class="d-block font-size-xs">
+              Made with 
+              <i class="cxi-heart mt-n1 mx-1 font-size-base text-primary align-middle"></i>
+              <a href="https://createx.studio/" class="text-light" target="_blank" rel="noopener noreferrer">by Createx Studio</a>
+            </span>
+          </div>
+          <div class="d-flex align-items-end">
+            <span class="d-sm-inline-block d-none text-light font-size-sm mr-3">Back to top</span>
+            <a class="btn-scroll-top position-static rounded-circle" href="#top" data-scroll>
+              <i class="btn-scroll-top-icon cxi-angle-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- Vendor scripts: js libraries and plugins-->
+    <script src="../../assets/vendor/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../../assets/vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="../../assets/vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="../../assets/vendor/lg-video.js/dist/lg-video.min.js"></script>
+
+    <!-- Main theme script-->
+    <script src="../../assets/js/theme.min.js"></script>
+  </body>
+
+<!-- Mirrored from createx.createx.studio/html/creative-agency/portfolio-single-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Apr 2021 20:35:50 GMT -->
+</html>

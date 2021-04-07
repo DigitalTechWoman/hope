@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from createx.createx.studio/html/creative-agency/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Apr 2021 20:35:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Createx | Creative Agency - Portfolio</title>
+
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Createx - Creative Agency Demo">
+    <meta name="keywords" content="bootstrap, business, creative agency, portfolio, services, ui kit, landing, html5, css3, javascript, gallery, slider, touch, creative">
+    <meta name="author" content="Createx Studio">
+
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/favicon-16x16.png">
+    <link rel="manifest" href="https://createx.createx.studio/assets/img/site.webmanifest">
+    <link rel="mask-icon" color="#5bbad5" href="https://createx.createx.studio/assets/img/safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="../../assets/vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="../../assets/vendor/tiny-slider/dist/tiny-slider.css"/>
+
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="../../assets/css/demo/creative-agency/theme.min.css">
+    
+    <!-- Page loading styles-->
+    <style>
+      .cs-page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .cs-page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .cs-page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .cs-page-loading.active > .cs-page-loading-inner {
+        opacity: 1;
+      }
+      .cs-page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #787a80;
+      }
+      .cs-page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        background-color: #cfcfd1; 
+        border-radius: 50%;
+        opacity: 0;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      @keyframes spinner {
+        0% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        50% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+    </style>
+
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.cs-page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+    </script>
+
+    <!-- Demo switcher off-canvas toggle styles -->
+    <style>
+      .cs-demo-switcher {
+        position: fixed;
+        display: block;
+        top: 50%;
+        right: 1rem;
+        z-index: 100;
+      }
+      .cs-demo-switcher-inner {
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid #e5e8ed;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #1e212c;
+        font-size: 1.25rem;
+        line-height: 3rem;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0px 10px 15px 0px rgba(30,33,44,0.10);
+      }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WKV3GT5');
+    </script>
+  </head>
+
+  <!-- Body-->
+  <body>
+    
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+    </noscript>
+
+    <!-- Page loading spinner-->
+    <div class="cs-page-loading active">
+      <div class="cs-page-loading-inner">
+        <div class="cs-page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+
+    <!-- Main content-->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="cs-page-wrapper position-relative">
+
+
+      <!-- Demo switcher off-canvas -->
+      <div id="demo-switcher" class="cs-offcanvas cs-offcanvas-right">
+        <div class="cs-offcanvas-cap d-block border-bottom">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2 class="h5 mb-0">Choose Demo</h2>
+            <button class="close mr-n1" type="button" data-dismiss="offcanvas" aria-label="Close">
+              <span class="h3 font-weight-normal mb-0" aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="d-flex pt-3">
+            <a href="https://createx.createx.studio/index.html" class="btn btn-sm btn-outline-secondary btn-block my-0 mr-2">
+              <i class="cxi-home font-size-base mr-1"></i>
+             Main Page
+            </a>
+            <a href="https://createx.createx.studio/html/components/typography.html" class="btn btn-sm btn-outline-secondary btn-block my-0">
+              <i class="cxi-files font-size-base mr-1"></i>
+             Docs / UI Kit
+            </a>
+          </div>
+        </div>
+        <div class="cs-offcanvas-body pt-4 pb-3" data-simplebar data-simplebar-auto-hide="true">
+          <a href="index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/creative-agency.jpg" class="d-block rounded-top mb-2" alt="Creative Agency">
+            <h6 class="mb-0 pt-1 text-center">Creative Agency</h6>
+          </a>
+          <a href="https://createx.createx.studio/html/ecommerce/index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/ecommerce.jpg" class="d-block rounded-top mb-2" alt="E-Commerce">
+            <h6 class="mb-0 pt-1 text-center">E-Commerce</h6>
+          </a>
+          <a href="https://createx.createx.studio/html/construction/index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/construction.jpg" class="d-block rounded-top mb-2" alt="Construction Bureau">
+            <h6 class="mb-0 pt-1 text-center">Construction Bureau</h6>
+          </a>
+          <a href="https://createx.createx.studio/html/seo-agency/index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/seo-agency.jpg" class="d-block rounded-top mb-2" alt="SEO & Marketing Agency">
+            <h6 class="mb-0 pt-1 text-center">SEO &amp; Marketing Agency</h6>
+          </a>
+          <a href="https://createx.createx.studio/html/online-courses/index.html" class="d-block cs-heading-highlight box-shadow-sm rounded-bottom pb-3 mb-4">
+            <img src="../../assets/img/demo-switcher/online-courses.jpg" class="d-block rounded-top mb-2" alt="Online Courses">
+            <h6 class="mb-0 pt-1 text-center">Online Courses</h6>
+          </a>
+        </div>
+        <div class="cs-offcanvas-cap flex-column border-top">
+          <a href="https://themes.getbootstrap.com/product/createx-multipurpose-template-ui-kit/" class="btn btn-primary btn-block" target="_blank" rel="noopener">
+            <i class="cxi-cart mt-n1 mr-2"></i>
+            Buy Createx
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Demo switcher off-canvas toggle -->
+      <a href="#" class="cs-demo-switcher" data-toggle="offcanvas" data-target="demo-switcher">
+        <div class="cs-demo-switcher-inner" data-toggle="tooltip" data-placement="left" title="Choose Demo">
+          <i class="cxi-layouts"></i>
+        </div>
+      </a>
+      
+
+      <!-- Navbar -->
+      <!-- Remove .navbar-sticky class to detach .navbar from page scroll -->
+      <header class="cs-header navbar navbar-expand-md navbar-light navbar-sticky navbar-floating">
+        <div class="container px-0 px-xl-3">
+          <a class="navbar-brand order-md-1 mr-md-5 mr-0 pr-lg-2" href="index.html">
+            <img src="https://createx.createx.studio/assets/img/creative-agency/logo-dark.svg" alt="Createx Logo" width="130">
+          </a>
+          <div class="d-flex align-items-center order-md-3">
+            <a class="btn btn-primary btn-pill d-sm-inline-block d-none ml-3" href="contacts.html">Contact us</a>
+            <button class="navbar-toggler ml-1 mr-n3" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-expanded="false">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <nav class="collapse navbar-collapse order-md-2" id="navbarCollapse1">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Portfolio</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="portfolio.html">Portfolio Grid</a></li>
+                  <li><a class="dropdown-item" href="portfolio-single-v1.html">Single Project v.1</a></li>
+                  <li><a class="dropdown-item" href="portfolio-single-v2.html">Single Project v.2</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="blog.html">Blog List</a></li>
+                  <li><a class="dropdown-item" href="blog-single.html">Single Post</a></li>
+                </ul>
+              </li>
+              <li class="nav-item d-sm-none d-block">
+                <a class="nav-link" href="contacts.html">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+
+      <!-- Portfolio grid-->
+      <section class="py-lg-6 py-5 bg-secondary bg-size-contain bg-position-top-left bg-no-repeat" style="background-image: url(../../assets/img/creative-agency/portfolio/page-bg.png);">
+        <div class="container mt-5 py-3 pb-lg-0 pt-md-5 pt-lg-4">
+
+          <!-- Filterable grid container. IMPORTANT: it should wrap filters/sorters and target grid of items in order for plugin to work! -->
+          <div data-filter-grid>
+            <h3 class="h6 mb-2 text-uppercase">Our Work</h3>
+            <div class="row align-items-end mb-lg-5 mb-4">
+              <div class="col-lg">
+                <h2 class="h1 mb-lg-0 mb-md-3 mb-2">Portfolio</h2>
+              </div>
+              <div class="col-lg-9">
+                <div class="mb-lg-0 mb-4 pb-lg-0 pb-2" data-simplebar data-simplebar-auto-hide="false">
+
+                  <!-- Filter navs -->
+                  <ul class="nav flex-lg-wrap flex-nowrap justify-content-lg-end mx-lg-0 mx-n3 mt-1 text-nowrap">
+                    <li class="nav-item mb-0">
+                      <span class="nav-link active" data-filter="all">
+                        All
+                        <sup class="ml-1">12</sup>
+                      </span>
+                    </li>
+                    <li class="nav-item mb-0">
+                      <span class="nav-link" data-filter=".mobile-apps">
+                        Mobile Apps
+                        <sup class="ml-1">2</sup>
+                      </span>
+                    </li>
+                    <li class="nav-item mb-0">
+                      <span class="nav-link" data-filter=".web-design">
+                        Web Design
+                        <sup class="ml-1">4</sup>
+                      </span>
+                    </li>
+                    <li class="nav-item mb-0">
+                      <span class="nav-link" data-filter=".branding">
+                        Branding
+                        <sup class="ml-1">5</sup>
+                      </span>
+                    </li>
+                    <li class="nav-item mb-0">
+                      <span class="nav-link" data-filter=".video-production">
+                        Video Production
+                        <sup class="ml-1">1</sup>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Filterable grid of items -->
+            <div class="row">
+              <div class="cs-grid-item branding col-md-8 pb-lg-2 mb-4">
+                <a class="cs-portfolio-card-scale" href="portfolio-single-v1.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/07.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Abstract Modern Graphic 3D Render</h3>
+                    <span class="font-size-sm text-muted">Branding</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cs-grid-item video-production col-md-4 col-sm-6 pb-lg-2 mb-4">
+                <a class="cs-portfolio-card-scale cs-portfolio-card-video" href="portfolio-single-v2.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/05.jpg" alt="Card image">
+                    <span class="cs-video-btn"></span>
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Abstract Shape Design</h3>
+                    <span class="font-size-sm text-muted">Video Production</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cs-grid-item web-design col-md-4 col-sm-6 pb-lg-2 mb-4">
+                <a class="cs-portfolio-card-scale" href="portfolio-single-v1.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/02.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Pink Fur Light Bulb Creative Concept</h3>
+                    <span class="font-size-sm text-muted">Web Design</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cs-grid-item mobile-apps col-md-4 col-sm-6 pb-lg-2 mb-4">
+                <a class="cs-portfolio-card-scale" href="portfolio-single-v2.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/04.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Minimalistic Mobile Interface</h3>
+                    <span class="font-size-sm text-muted">Mobile Apps</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cs-grid-item branding col-md-4 col-sm-6 pb-lg-2 mb-4">
+                <a class="cs-portfolio-card-scale" href="portfolio-single-v1.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/01.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Hardcover Book Concept</h3>
+                    <span class="font-size-sm text-muted">Branding</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cs-grid-item branding col-md-8 pb-lg-2 mb-4">
+                <a class="cs-portfolio-card-scale" href="portfolio-single-v2.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/08.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Striped Smooth Surface With Lines</h3>
+                    <span class="font-size-sm text-muted">Branding</span>
+                  </div>
+                </a>
+              </div>
+              <div class="cs-grid-item web-design col-md-4 col-sm-6 pb-lg-2 mb-4">
+                <a class="cs-portfolio-card-scale" href="portfolio-single-v1.html">
+                  <div class="cs-portfolio-card-img">
+                    <img src="../../assets/img/creative-agency/portfolio/06.jpg" alt="Card image">
+                  </div>
+                  <div class="cs-portfolio-card-body">
+                    <h3 class="cs-portfolio-card-title">Artificial Intelligence Concept</h3>
+                    <span class="font-size-sm text-muted">Web Design</span>
+                  </div>
+                </a>
+              </div>
+            </div>  
+          </div>
+          <div class="mt-lg-4 text-center">
+            <button class="btn btn-lg btn-link load-more-btn p-0 text-decoration-none" type="button">
+              <i class="cxi-arrow-convert mt-n1 mr-3 align-middle"></i>
+              Load more
+            </button>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Testimonials -->
+      <section class="container pt-lg-6 py-5">
+        <div class="row pt-3 pt-lg-0">
+          <div class="col-md-6">
+            <h3 class="h6 mb-2 text-uppercase">Testimonials</h3>
+            <h2 class="h1 mb-lg-5 mb-4 pb-2">What clients say about us</h2>
+
+            <!-- Carousel custom controls -->
+            <div class="tns-custom-controls cs-controls-inverse d-md-flex d-none mb-n5 mx-0" id="tns-custom-controls" tabindex="0">
+              <button class="mb-n2" type="button" data-controls="prev" tabindex="-1">
+                <i class="cxi-arrow-left"></i>
+              </button>
+              <button class="mb-n2" type="button" data-controls="next" tabindex="-1">
+                <i class="cxi-arrow-right"></i>
+              </button>
+            </div>
+
+            <!-- Carousel -->
+            <div class="cs-carousel cs-nav-outside">
+              <div class="cs-carousel-inner" data-carousel-options='{
+                "gutter": 15,
+                "controlsContainer": "#tns-custom-controls",
+                "autoHeight": true,
+                "responsive": {
+                  "0": {
+                    "nav": true
+                  },
+                  "768": {
+                    "nav": false
+                  }
+                }
+              }'>
+
+                <!-- Carousel testimonial item -->
+                <blockquote>
+                  <img class="mb-4 rounded-circle" src="../../assets/img/creative-agency/testimonials/01.jpg" width="72" alt="Author">
+                  <p>Quae, recusandae! Rem cumque a, dolorum error quis blanditiis exercitationem culpa enim harum! Praesentium repellendus placeat deleniti! Maxime deserunt inventore nihil magnam vero iure amet dolores enim soluta sint accusamus.</p>
+                  <footer>
+                    <h3 class="h6 mb-0">Courtney Alexander</h3>
+                    <span class="font-size-sm text-muted">Position, Company</span>
+                  </footer>
+                </blockquote>
+
+                <!-- Carousel testimonial item -->
+                <blockquote>
+                  <img class="mb-4 rounded-circle" src="../../assets/img/creative-agency/testimonials/02.jpg" width="72" alt="Author">
+                  <p>Eveniet molestias, iste excepturi optio libero aspernatur eius, eos nostrum sunt magnam ipsa impedit dignissimos est expedita, amet quidem et quod. Expedita porro doloremque sit at fugiat in animi obcaecati repellendus, quaerat quo soluta quisquam adipisci odit error repudiandae dolorum accusamus vel?</p>
+                  <footer>
+                    <h3 class="h6 mb-0">Eleanor Pena</h3>
+                    <span class="font-size-sm text-muted">Position, Company</span>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 d-md-block d-none ml-lg-auto">
+            <img class="rounded" src="../../assets/img/creative-agency/testimonials/03.jpg" alt="Testimonials">
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Contact links -->
+      <section class="container mb-4 mb-sm-5 mt-md-4 mt-lg-0 px-3 py-lg-6 py-5">
+        <h2 class="h3 mb-5 pb-2 text-center">Let's build something amazing together!</h2>
+        <div class="row justify-content-center px-2 px-sm-0">
+          <div class="col-md-3 col-sm-4 col px-2 px-sm-3">
+            <h3 class="h6 pb-lg-3 pb-2 text-uppercase text-muted text-center">Follow us</h3>
+            <a class="d-block" href="#">
+              <img class="rounded" src="https://createx.createx.studio/assets/img/creative-agency/logo/block-dribbble.svg" alt="Dribble">
+            </a>
+            <a class="mt-sm-4 mt-3 d-block" href="#">
+              <img class="rounded" src="https://createx.createx.studio/assets/img/creative-agency/logo/block-behance.svg" alt="Behance">
+            </a>
+          </div>
+          <div class="divider-vertical d-sm-block d-none offset-sm-1"></div>
+          <div class="col-md-3 col-sm-4 col offset-sm-1 px-2 px-sm-3">
+            <h3 class="h6 pb-lg-3 pb-2 text-uppercase text-muted text-center">Get in touch</h3>
+            <a class="d-block" href="#">
+              <img class="rounded" src="https://createx.createx.studio/assets/img/creative-agency/logo/block-upwork.svg" alt="Upwork">
+            </a>
+            <a class="mt-sm-4 mt-3 d-block" href="mailto:hello@example.com">
+              <img class="rounded" src="https://createx.createx.studio/assets/img/creative-agency/logo/block-email.svg" alt="Email">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main><!-- / Main content: .cs-page-wrapper -->
+
+
+    <!-- Footer -->
+    <footer class="cs-footer pt-3 bg-dark">
+      <div class="container py-lg-5 py-4">
+        <div class="row">
+          <div class="col-lg-2 col-md-3 col-12 order-md-1 order-2 mb-md-0 mb-4">
+            <h3 class="h6 mb-3 text-uppercase text-light">Want to hire us?</h3>
+            <ul class="nav nav-light flex-column">
+              <li class="nav-item mb-2">
+                <a href="tel:(405)555-0128" class="nav-link p-0 font-weight-normal">
+                  <span class="text-light">Call: </span>
+                  (405) 555-0128
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="mailto:hello@example.com" class="nav-link p-0 font-weight-normal">
+                  <span class="text-light">Email: </span>
+                  hello@example.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-12 order-md-2 order-1 offset-lg-1 mb-md-0 mb-4">
+            <h3 class="h6 mb-3 text-uppercase text-light">Quick links</h3>
+            <ul class="nav nav-light flex-md-column flex-sm-row flex-column">
+              <li class="nav-item mb-2">
+                <a href="index.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">Homepage</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="portfolio.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">Portfolio</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="about.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">About us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="blog.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">Blog</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contacts.html" class="nav-link mr-md-0 mr-sm-4 p-0 font-weight-normal">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-6 order-md-3 order-sm-4 order-3 offset-lg-1 mb-md-0 mb-4">
+            <h3 class="h6 mb-3 text-uppercase text-light">Follow us</h3>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mr-2 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-facebook"></i>
+            </a>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mr-2 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-instagram"></i>
+            </a>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mr-2 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-twitter"></i>
+            </a>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mr-2 mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-behance"></i>
+            </a>
+            <a href="#" class="social-btn sb-solid sb-round sb-light mb-2 mt-md-0 mt-sm-1">
+              <i class="cxi-dribbble"></i>
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6 order-md-4 order-sm-3 order-4 mb-md-0 mb-4">
+            <h3 class="h6 mb-3 text-uppercase text-light">Subscribe</h3>
+            <form>
+              <div class="input-group-overlay input-group-light form-group mb-2 pb-1">
+                <input class="form-control appended-form-control" type="text" placeholder="Email address*">
+                <div class="input-group-append-overlay">
+                  <span class="input-group-text">
+                    <button class="btn btn-link bt-sm px-0" type="submit">
+                      <i class="cxi-arrow-right lead mt-n1"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+              <small class="form-text text-light">*Subscribe to our newsletter to receive early discount offers, updates and new products info.</small>
+            </form>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between mt-2 pt-1">
+          <div class="text-light">
+            <span class="d-block font-size-xs mb-1">
+              <span class="font-size-sm">&copy; </span>
+              All rights reserved.
+            </span>
+            <span class="d-block font-size-xs">
+              Made with 
+              <i class="cxi-heart mt-n1 mx-1 font-size-base text-primary align-middle"></i>
+              <a href="https://createx.studio/" class="text-light" target="_blank" rel="noopener noreferrer">by Createx Studio</a>
+            </span>
+          </div>
+          <div class="d-flex align-items-end">
+            <span class="d-sm-inline-block d-none text-light font-size-sm mr-3">Back to top</span>
+            <a class="btn-scroll-top position-static rounded-circle" href="#top" data-scroll>
+              <i class="btn-scroll-top-icon cxi-angle-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- Vendor scripts: js libraries and plugins-->
+    <script src="../../assets/vendor/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../../assets/vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="../../assets/vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="../../assets/vendor/mixitup/dist/mixitup.min.js"></script>
+
+    <!-- Main theme script-->
+    <script src="../../assets/js/theme.min.js"></script>
+  </body>
+
+<!-- Mirrored from createx.createx.studio/html/creative-agency/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Apr 2021 20:35:38 GMT -->
+</html>
